@@ -1,0 +1,27 @@
+mixin nav-menu(menu_items)
+  nav.header-nav
+    each item in menu_items
+      a.header-nav_item(class= currentURL == item.href ? 'active-page' : '' href= item.href) #{item.title}
+
+// 
+  HEADER
+
+header
+  .container
+    .shell
+      .header-row
+        .logo
+          a(href="../html/index.html")
+            h2 JET
+              span.change-color RO
+        +nav-menu(
+        [
+        {'title' : 'Home', 'href' : '../html/index.html'},
+        {'title' : 'About Us', 'href' : '../html/about-us.html'},
+        {'title' : 'Blog', 'href' : '../html/blog.html'},
+        {'title' : 'Portfolio', 'href' : '../html/portfolio.html'},
+        {'title' : 'Contact  US', 'href' : '../html/contacts.html'}
+        ]
+        )
+
+

@@ -1,0 +1,51 @@
+/*FOOTER =======================================================================*/
+footer{
+ 	background-color: rgba(232, 102, 60, 0.502);
+
+	@media(max-width: 1100px){
+		background-color: #fff;
+	}
+}
+.footer-row {
+	background-color: #e8663c;
+	padding: 35px 30px;
+	display: flex;
+}
+.footer-column {
+	width: 30%;
+}
+.footer-column:not(:last-child) {
+	margin-right: 68px;
+}
+.footer-column_title {
+	font-size: 20px;
+	font-style: normal;
+	color: #ffffff;
+	margin-bottom: 27px;
+	letter-spacing: 0.05em;
+}
+.footer-column_text {
+	font-family: "HelveticaNeue";
+  	font-size: 12px;
+	font-style: normal;
+	color: #ffffff;
+	margin-bottom: 19px;
+}
+.footer-column_social-link:not(:last-child) {
+	margin-right: 5px;
+}
+.footer-column_social-link img {
+	width: 30px;
+  	height: 31px;
+}
+.twitter-special-color {
+	color: #f3b29d;
+}
+span.twitter-time-counter {
+	display: block;
+	margin-top: 8px;
+}
+
+
+
+/*==============================================================================================*/

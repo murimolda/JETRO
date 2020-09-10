@@ -1,0 +1,57 @@
+/*Home PRESENTATION-BLOCK  =======================================================================*/
+.presentation-block {
+	margin-bottom: 48px;
+}
+.presentation-block_header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 26px;
+}
+.presentation-block_header h2{
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	color: #e8603c;
+	margin-right: 19px;
+}
+.presentation-block__grey-line {
+	flex-grow: 1;
+	height: 19px;
+	background-image: url(../img/Line-bgc.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.presentation-block_row {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.presentation-block_column {
+	width: 23%;
+	overflow: hidden;
+}
+.presentation-block_image {
+	overflow: hidden;
+	height: 184px;
+	margin-bottom: 18px;
+}
+.presentation-block_image img{
+	width: auto;
+	min-height: 100%;
+}
+.presentation-block_title {
+	margin-left: 14px;
+  	margin-bottom: 7px;
+}
+.presentation-block_title h3{
+	font-size: 16px;
+  	color: #b9b9b9;
+  	letter-spacing: 0.1em;
+}
+.presentation-block_date {
+	margin-left: 14px;
+}
+.presentation-block_date h4{
+	font-size: 11px;
+  	color: #e8663c;
+}
+/*==============================================================================================*/

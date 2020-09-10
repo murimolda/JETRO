@@ -1,0 +1,13 @@
+extends main
+
+block title
+	| JETRO PORTFOLIO-ITEM
+
+block content
+	include basic-modules/header
+	include basic-modules/page-title
+		block page-title
+			| Portfolio-item
+	include portfolio-items/portfolio-item-content
+	include basic-modules/presentation-block
+	include basic-modules/footer

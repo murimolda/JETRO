@@ -1,0 +1,20 @@
+/*PAGE_TITLE =======================================================================*/
+.page-title{
+ 	background-color: rgba(232, 102, 60, 0.502);
+}
+@media(max-width: 1100px){
+	.page-title {
+		background-color: #fff;
+	}
+}
+.page-title_row {
+	background-color: #e8663c;
+	padding: 19px;
+	display: flex;
+}
+.page-title_row h2{
+	font-size: 24px;
+	color: #ffffff;
+	letter-spacing: 0.05em;
+}
+/*==============================================================================================*/

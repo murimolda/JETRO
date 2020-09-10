@@ -1,0 +1,15 @@
+extends main
+
+block title
+	| JETRO HOME
+
+block content
+	- var currentURL = 'index.html'
+	include basic-modules/header
+	include basic-modules/page-title
+		block page-title
+			| Home
+	include basic-modules/slider-block
+	include basic-modules/info-block
+	include basic-modules/presentation-block
+	include basic-modules/footer

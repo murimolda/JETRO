@@ -1,0 +1,33 @@
+/*FOOTER =======================================================================*/
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+.logo {
+  font-size: 36px;
+  font-style: normal;
+  color: #e8603c;
+}
+
+.change-color {
+  color: #f3af9d;
+}
+
+a.header-nav_item {
+  font-size: 16px;
+  font-style: normal;
+  color: #b9b9b9;
+}
+
+a.header-nav_item:not(:last-child) {
+  margin-right: 28px;
+}
+
+a.active-page {
+  color: #e8663c;
+}
+
+/*==============================================================================================*/

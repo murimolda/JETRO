@@ -1,0 +1,22 @@
+/*PORTFOLIO-BLOCK =======================================================================*/
+.portfolio-item_image {
+	overflow: hidden;
+	margin: 24px 0;
+	max-height: 400px;
+}
+.portfolio-item_image img{
+	height: 100%;
+	width: auto;
+}
+.portfolio-item_text{
+	margin-bottom: 49px;
+	font-family: 'HelveticaNeue';
+  	font-size: 12px;
+	line-height: 1.5;
+	color: #414141;
+}
+.portfolio-item_text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+/*==============================================================================================*/
