@@ -13,9 +13,10 @@ footer{
 }
 .footer-column {
 	width: 30%;
-}
-.footer-column:not(:last-child) {
-	margin-right: 68px;
+
+	&:not(:last-child) {
+		margin-right: 68px;
+	}
 }
 .footer-column_title {
 	font-size: 20px;
@@ -31,12 +32,15 @@ footer{
 	color: #ffffff;
 	margin-bottom: 19px;
 }
-.footer-column_social-link:not(:last-child) {
-	margin-right: 5px;
-}
-.footer-column_social-link img {
-	width: 30px;
-  	height: 31px;
+.footer-column_social-link{
+	&:not(:last-child) {
+		margin-right: 5px;
+	}
+
+	img {
+		width: 30px;
+		height: 31px;
+	}
 }
 .twitter-special-color {
 	color: #f3b29d;

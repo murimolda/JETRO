@@ -146,12 +146,12 @@ body {
 footer {
   background-color: rgba(232, 102, 60, 0.502);
 }
-
 @media (max-width: 1100px) {
   footer {
     background-color: #fff;
   }
 }
+
 .footer-row {
   background-color: #e8663c;
   padding: 35px 30px;
@@ -161,7 +161,6 @@ footer {
 .footer-column {
   width: 30%;
 }
-
 .footer-column:not(:last-child) {
   margin-right: 68px;
 }
@@ -185,7 +184,6 @@ footer {
 .footer-column_social-link:not(:last-child) {
   margin-right: 5px;
 }
-
 .footer-column_social-link img {
   width: 30px;
   height: 31px;
@@ -500,7 +498,6 @@ button.arrow-next {
   width: 227px;
   margin-right: 27px;
 }
-
 .about-block_content-line_foto-image img {
   height: 100%;
   width: auto;
@@ -509,7 +506,6 @@ button.arrow-next {
 .about-block_content-line_spesial-letter {
   overflow: hidden;
 }
-
 .about-block_content-line_spesial-letter span {
   float: left;
   display: flex;
@@ -531,7 +527,6 @@ button.arrow-next {
   font-style: italic;
   display: flex;
 }
-
 .about-block_content-line_spesial-quote span {
   align-self: stretch;
   width: 28px;
@@ -543,11 +538,9 @@ button.arrow-next {
   display: flex;
   justify-content: space-between;
 }
-
 .about-block_content-line_two-column p {
   width: 50%;
 }
-
 .about-block_content-line_two-column p:not(:last-child) {
   margin-right: 42px;
 }
@@ -556,11 +549,9 @@ button.arrow-next {
   display: flex;
   justify-content: space-between;
 }
-
 .about-block_content-line_three-column p {
   width: 33%;
 }
-
 .about-block_content-line_three-column p:not(:last-child) {
   margin-right: 21px;
 }
@@ -604,8 +595,7 @@ button.arrow-next {
 .about-block_right-side-column {
   width: 25%;
 }
-
-.about-block_right-side_line:not(:last-child) {
+.about-block_right-side-column :not(:last-child) {
   margin-bottom: 37px;
 }
 
@@ -614,7 +604,6 @@ button.arrow-next {
   align-items: center;
   margin-bottom: 21px;
 }
-
 .right-side_line_header h3 {
   font-size: 14px;
   font-weight: normal;
@@ -808,7 +797,6 @@ a.portfolio-block_nav_link-active {
   width: 100%;
   margin-bottom: 23px;
 }
-
 .blog-content_line_image img {
   object-fit: cover;
   width: 100%;
@@ -831,7 +819,6 @@ a.portfolio-block_nav_link-active {
 .details_item {
   margin-bottom: 16px;
 }
-
 .details_item h3 {
   font-size: 12px;
   color: #e8603c;
@@ -847,24 +834,20 @@ a.portfolio-block_nav_link-active {
 .blog-content_line_text {
   margin-right: 22px;
 }
-
 .blog-content_line_text h2 {
   font-size: 18px;
   color: #e8603c;
   margin-bottom: 23px;
 }
-
 .blog-content_line_text p {
   font-family: "HelveticaNeue";
   font-size: 12px;
   line-height: 1.5;
   color: #414141;
 }
-
 .blog-content_line_text p:not(:last-child) {
   margin-bottom: 20px;
 }
-
 .blog-content_line_text span {
   font-family: "HelveticaNeue";
   font-size: 12px;
@@ -890,7 +873,6 @@ a.portfolio-block_nav_link-active {
   margin-bottom: 54px;
   padding-left: 34px;
 }
-
 .blog-content_line_content_quote span {
   font-family: "Georgia";
   font-size: 72px;
@@ -899,7 +881,6 @@ a.portfolio-block_nav_link-active {
   margin-right: 17px;
   padding-top: 20px;
 }
-
 .blog-content_line_content_quote p {
   font-family: "HelveticaNeue";
   font-size: 13px;
@@ -913,19 +894,16 @@ a.portfolio-block_nav_link-active {
   margin-bottom: 47px;
   margin-right: 11px;
 }
-
 .blog-content_line_content_link h2 {
   font-size: 18px;
   color: #e8663c;
   margin-bottom: 10px;
 }
-
 .blog-content_line_content_link a {
   font-family: "HelveticaNeue";
   font-size: 12px;
   color: #a0a0a0;
 }
-
 .blog-content_line_content_link p {
   margin-top: 25px;
   font-family: "HelveticaNeue";
@@ -975,7 +953,6 @@ a.portfolio-block_nav_link-active {
   height: 400px;
   margin-bottom: 37px;
 }
-
 .contacts_map img {
   width: auto;
   height: 100%;
@@ -991,7 +968,6 @@ a.portfolio-block_nav_link-active {
   width: 30%;
   margin-right: 35px;
 }
-
 .contacts_text p {
   font-family: "HelveticaNeue";
   font-size: 10px;
@@ -1008,7 +984,6 @@ a.portfolio-block_nav_link-active {
   margin-bottom: 0;
   font-weight: 500;
 }
-
 .contacts_details h4 {
   font-weight: bold;
   color: #e8603c;
@@ -1017,13 +992,11 @@ a.portfolio-block_nav_link-active {
 .contacts_form {
   width: 100%;
 }
-
 .contacts_form form {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-
 .contacts_form input {
   height: 33px;
   width: 215px;
@@ -1031,12 +1004,10 @@ a.portfolio-block_nav_link-active {
   border: solid 1px #e8603c;
   padding-left: 13px;
 }
-
 .contacts_form input::placeholder {
   font-size: 12px;
   color: #e8603c;
 }
-
 .contacts_form textarea {
   height: 200px;
   width: 100%;
@@ -1047,7 +1018,6 @@ a.portfolio-block_nav_link-active {
   font-size: 14px;
   color: #e8603c;
 }
-
 .contacts_form button {
   width: 67px;
   height: 31px;
