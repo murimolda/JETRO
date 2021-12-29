@@ -1,3 +1,6 @@
+-   let russian = window.location.pathname;
+-   let english = window.location.pathname.replace('.html', '_english.html');
+
 //
 	BLOG-CONTENT
 section.blog-content
@@ -111,3 +114,10 @@ section.blog-content
 				//
 					Right-side-block
 				include right-side-block
+
+    div.leng
+        ul
+            a(href= russian)
+                li RU
+            a(href= english)
+                li EN
